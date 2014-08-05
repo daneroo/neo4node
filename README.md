@@ -4,6 +4,18 @@ Node example to talk to Neo4j (proxy)
 
 More full fledged app is [here](https://github.com/aseemk/node-neo4j-template).
 
+## Clear Database
+Count:
+
+    MATCH (n)
+    OPTIONAL MATCH (n)-[r]-()
+    return count(n),count(r)
+
+Delete:
+
+    MATCH (n)
+    OPTIONAL MATCH (n)-[r]-()
+    DELETE n,r
 
 ## Heroku
 We are deployed on: [http://neo4node.herokuapp.com](http://neo4node.herokuapp.com)
