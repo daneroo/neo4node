@@ -21,3 +21,7 @@ but:
 So created a sandbox plan free account, and
 
     heroku config:set GRAPHENEDB_URL=http://neo4node.sb02.stations.graphenedb.com:24789
+
+Also to provide default passthrough Basic Auth:
+
+    heroku config:set GRAPHENEDB_USERPASS=userName:secretPassword
