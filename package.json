@@ -1,0 +1,15 @@
+{
+  "name": "neo4node",
+  "version": "0.0.1",
+  "description": "Node example to talk to Neo4j (proxy)",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Daniel Lauzon <daniel.lauzon@gmail.com",
+  "license": "BSD",
+  "dependencies": {
+    "http-proxy": "^1.1.6",
+    "neo4j": "^1.1.0"
+  }
+}
